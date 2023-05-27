@@ -1,4 +1,4 @@
-import { Adventure, AdventureRequest, AdventureResponse, Chapter, ContinueAdventureResponse } from '../models';
+import { Adventure, AdventureResponse, Chapter, ContinueAdventureResponse } from '../models';
 import { defineStore } from 'pinia';
 
 export interface AdventureState {
