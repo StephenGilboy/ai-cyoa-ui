@@ -1,6 +1,6 @@
 <template>
     <div class="disclaimer" v-show="isVisible">
-        <p>DISCLAIMER: Everything you submit is saved and able to be viewed by people with access to the database. If you don't agree to that then don't use this site. <a href="https://translate.google.com/?sl=en&tl=es&text=DISCLAIMER%3A%20Everything%20you%20submit%20is%20saved.%20If%20you%20don%27t%20agree%20to%20that%20then%20don%27t%20use%20it.&op=translate&hl=en" target="_blank">Translate</a></p>
+        <p>DISCLAIMER: Everything you submit is saved and able to be viewed by people with access to the database. What you submit is also sent to third parties that may use this information to train their AI models. If you don't agree to that then don't use this site. <a href="https://translate.google.com/?hl=en&sl=en&tl=es&text=DISCLAIMER%3A%20Everything%20you%20submit%20is%20saved%20and%20able%20to%20be%20viewed%20by%20people%20with%20access%20to%20the%20database.%20What%20you%20submit%20is%20also%20sent%20to%20third%20parties%20that%20may%20use%20this%20information%20to%20train%20their%20AI%20models.%20If%20you%20don%27t%20agree%20to%20that%20then%20don%27t%20use%20this%20site.&op=translate" target="_blank">Translate</a></p>
         <div class="btn-group">
             <a href="https://www.duckduckgo.com" class="btn btn-danger">Decline</a>
             <button class="btn btn-primary" type="button" @click="accept">Accept</button>
