@@ -1,5 +1,6 @@
 <template>
     <div id="active-adventure">
+        <Disclaimer />
         <div class="chapter-area">
             <Chapter v-if="chapters.length > 0" v-for="(c, i) in chapters" :key="i" :chapter="c" v-show="i === store.currentChapterIndex" />
             <h2 v-else>Start Your Adventure</h2>
@@ -13,6 +14,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue';
 import Chapter from './Chapter.vue';
+import Disclaimer from './Disclaimer.vue';
 import { useAdventureStore } from '../stores/adventure';
 const store = useAdventureStore();
 
